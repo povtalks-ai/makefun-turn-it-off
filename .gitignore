@@ -1,0 +1,11 @@
+# Keypairs / secrets -- never commit these.
+*.json
+!package.json
+*.pem
+*.key
+id_rsa*
+.makefun/*.json
+!.makefun/freshness.json
+!.makefun/owner.json
+__pycache__/
+*.pyc
